@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-@interface RewardCardCell : UICollectionReusableView
+@interface RewardCardCell : UICollectionViewCell
 
 @property (nonatomic, weak) IBOutlet UIImageView *imageView;
 

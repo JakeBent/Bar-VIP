@@ -26,6 +26,9 @@
 		16BA8C0619D4B044007B7880 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16BA8C0419D4B044007B7880 /* LaunchScreen.xib */; };
 		16BA8C1219D4B044007B7880 /* Bar_VIPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA8C1119D4B044007B7880 /* Bar_VIPTests.m */; };
 		16BA8C1E19D4C3FA007B7880 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA8C1D19D4C3FA007B7880 /* TabBarController.m */; };
+		16F3B4C219D8CAE70043A17B /* RewardHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3B4C119D8CAE70043A17B /* RewardHeaderCell.m */; };
+		16F3B4C619D8CF5C0043A17B /* blurredbackground-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 16F3B4C519D8CF5C0043A17B /* blurredbackground-dark.png */; };
+		16F3B4C819D8CF8D0043A17B /* Olive-reward-card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16F3B4C719D8CF8D0043A17B /* Olive-reward-card@2x.png */; };
 		E4CF98FB7A6917E543D61280 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B57940676FCB360D1A13B655 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +73,10 @@
 		16BA8C1119D4B044007B7880 /* Bar_VIPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bar_VIPTests.m; sourceTree = "<group>"; };
 		16BA8C1C19D4C3FA007B7880 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		16BA8C1D19D4C3FA007B7880 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		16F3B4C019D8CAE70043A17B /* RewardHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardHeaderCell.h; sourceTree = "<group>"; };
+		16F3B4C119D8CAE70043A17B /* RewardHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardHeaderCell.m; sourceTree = "<group>"; };
+		16F3B4C519D8CF5C0043A17B /* blurredbackground-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blurredbackground-dark.png"; sourceTree = "<group>"; };
+		16F3B4C719D8CF8D0043A17B /* Olive-reward-card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Olive-reward-card@2x.png"; sourceTree = "<group>"; };
 		A52CF54CFCBDCF750E6CCA1C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B57940676FCB360D1A13B655 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F898C20AAD46DFDECD6F22B5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +118,8 @@
 				1624C9E619D7A0E300AE620B /* user_male@2x.png */,
 				1624C9E919D7A31100AE620B /* money_bag.png */,
 				1624C9EA19D7A31100AE620B /* money_bag@2x.png */,
+				16F3B4C719D8CF8D0043A17B /* Olive-reward-card@2x.png */,
+				16F3B4C519D8CF5C0043A17B /* blurredbackground-dark.png */,
 				1624C9ED19D7AEA000AE620B /* lenasquare.jpg */,
 			);
 			name = Images;
@@ -146,6 +155,8 @@
 				1624C9DD19D7927000AE620B /* MapViewController.m */,
 				1624C9EF19D8A34300AE620B /* RewardsCollectionView.h */,
 				1624C9F019D8A34300AE620B /* RewardsCollectionView.m */,
+				16F3B4C019D8CAE70043A17B /* RewardHeaderCell.h */,
+				16F3B4C119D8CAE70043A17B /* RewardHeaderCell.m */,
 				1624C9F519D8A64800AE620B /* RewardCardCell.h */,
 				1624C9F619D8A64800AE620B /* RewardCardCell.m */,
 				16BA8C1C19D4C3FA007B7880 /* TabBarController.h */,
@@ -292,8 +303,10 @@
 				1624C9E219D79E8600AE620B /* map_marker@2x.png in Resources */,
 				1624C9E719D7A0E300AE620B /* user_male.png in Resources */,
 				1624C9EE19D7AEA000AE620B /* lenasquare.jpg in Resources */,
+				16F3B4C819D8CF8D0043A17B /* Olive-reward-card@2x.png in Resources */,
 				1624C9E819D7A0E300AE620B /* user_male@2x.png in Resources */,
 				1624C9EC19D7A31100AE620B /* money_bag@2x.png in Resources */,
+				16F3B4C619D8CF5C0043A17B /* blurredbackground-dark.png in Resources */,
 				16BA8C0619D4B044007B7880 /* LaunchScreen.xib in Resources */,
 				16BA8C0319D4B044007B7880 /* Images.xcassets in Resources */,
 				1624C9E419D79E8D00AE620B /* map_marker.png in Resources */,
@@ -352,6 +365,7 @@
 				1624C9F719D8A64800AE620B /* RewardCardCell.m in Sources */,
 				16BA8C1E19D4C3FA007B7880 /* TabBarController.m in Sources */,
 				1624C9F119D8A34300AE620B /* RewardsCollectionView.m in Sources */,
+				16F3B4C219D8CAE70043A17B /* RewardHeaderCell.m in Sources */,
 				1624C9DE19D7927000AE620B /* MapViewController.m in Sources */,
 				16BA8BFB19D4B044007B7880 /* FirstViewController.m in Sources */,
 				16BA8BF519D4B044007B7880 /* main.m in Sources */,
