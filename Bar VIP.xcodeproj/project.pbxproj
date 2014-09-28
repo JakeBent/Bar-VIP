@@ -16,6 +16,7 @@
 		1624C9EC19D7A31100AE620B /* money_bag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1624C9EA19D7A31100AE620B /* money_bag@2x.png */; };
 		1624C9EE19D7AEA000AE620B /* lenasquare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1624C9ED19D7AEA000AE620B /* lenasquare.jpg */; };
 		1624C9F119D8A34300AE620B /* RewardsCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1624C9F019D8A34300AE620B /* RewardsCollectionView.m */; };
+		1624C9F719D8A64800AE620B /* RewardCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1624C9F619D8A64800AE620B /* RewardCardCell.m */; };
 		16BA8BF519D4B044007B7880 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA8BF419D4B044007B7880 /* main.m */; };
 		16BA8BF819D4B044007B7880 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA8BF719D4B044007B7880 /* AppDelegate.m */; };
 		16BA8BFB19D4B044007B7880 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA8BFA19D4B044007B7880 /* FirstViewController.m */; };
@@ -50,6 +51,8 @@
 		1624C9ED19D7AEA000AE620B /* lenasquare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lenasquare.jpg; sourceTree = "<group>"; };
 		1624C9EF19D8A34300AE620B /* RewardsCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardsCollectionView.h; sourceTree = "<group>"; };
 		1624C9F019D8A34300AE620B /* RewardsCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardsCollectionView.m; sourceTree = "<group>"; };
+		1624C9F519D8A64800AE620B /* RewardCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardCardCell.h; sourceTree = "<group>"; };
+		1624C9F619D8A64800AE620B /* RewardCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardCardCell.m; sourceTree = "<group>"; };
 		16BA8BEF19D4B044007B7880 /* Bar VIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bar VIP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16BA8BF319D4B044007B7880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16BA8BF419D4B044007B7880 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -143,6 +146,8 @@
 				1624C9DD19D7927000AE620B /* MapViewController.m */,
 				1624C9EF19D8A34300AE620B /* RewardsCollectionView.h */,
 				1624C9F019D8A34300AE620B /* RewardsCollectionView.m */,
+				1624C9F519D8A64800AE620B /* RewardCardCell.h */,
+				1624C9F619D8A64800AE620B /* RewardCardCell.m */,
 				16BA8C1C19D4C3FA007B7880 /* TabBarController.h */,
 				16BA8C1D19D4C3FA007B7880 /* TabBarController.m */,
 				16BA8BF919D4B044007B7880 /* FirstViewController.h */,
@@ -344,6 +349,7 @@
 			files = (
 				16BA8BFE19D4B044007B7880 /* SecondViewController.m in Sources */,
 				16BA8BF819D4B044007B7880 /* AppDelegate.m in Sources */,
+				1624C9F719D8A64800AE620B /* RewardCardCell.m in Sources */,
 				16BA8C1E19D4C3FA007B7880 /* TabBarController.m in Sources */,
 				1624C9F119D8A34300AE620B /* RewardsCollectionView.m in Sources */,
 				1624C9DE19D7927000AE620B /* MapViewController.m in Sources */,
