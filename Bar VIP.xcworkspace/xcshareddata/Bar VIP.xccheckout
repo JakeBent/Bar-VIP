@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>32CDBB08-1CB9-4BAC-9CAE-4CF1744D1366</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bar VIP</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EC96521DAFBAB692F01DFB5E5BB93152082F967F</key>
+		<string>github.com:JakeBent/Bar-VIP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bar VIP.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EC96521DAFBAB692F01DFB5E5BB93152082F967F</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:JakeBent/Bar-VIP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EC96521DAFBAB692F01DFB5E5BB93152082F967F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EC96521DAFBAB692F01DFB5E5BB93152082F967F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bar%20VIP</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1624C9DE19D7927000AE620B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1624C9DD19D7927000AE620B /* MapViewController.m */; };
+		1624C9E219D79E8600AE620B /* map_marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1624C9E119D79E8600AE620B /* map_marker@2x.png */; };
+		1624C9E419D79E8D00AE620B /* map_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 1624C9E319D79E8D00AE620B /* map_marker.png */; };
+		1624C9E719D7A0E300AE620B /* user_male.png in Resources */ = {isa = PBXBuildFile; fileRef = 1624C9E519D7A0E300AE620B /* user_male.png */; };
+		1624C9E819D7A0E300AE620B /* user_male@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1624C9E619D7A0E300AE620B /* user_male@2x.png */; };
+		1624C9EB19D7A31100AE620B /* money_bag.png in Resources */ = {isa = PBXBuildFile; fileRef = 1624C9E919D7A31100AE620B /* money_bag.png */; };
+		1624C9EC19D7A31100AE620B /* money_bag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1624C9EA19D7A31100AE620B /* money_bag@2x.png */; };
+		1624C9EE19D7AEA000AE620B /* lenasquare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1624C9ED19D7AEA000AE620B /* lenasquare.jpg */; };
+		1624C9F119D8A34300AE620B /* RewardsCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1624C9F019D8A34300AE620B /* RewardsCollectionView.m */; };
 		16BA8BF519D4B044007B7880 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA8BF419D4B044007B7880 /* main.m */; };
 		16BA8BF819D4B044007B7880 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA8BF719D4B044007B7880 /* AppDelegate.m */; };
 		16BA8BFB19D4B044007B7880 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA8BFA19D4B044007B7880 /* FirstViewController.m */; };
@@ -15,6 +24,8 @@
 		16BA8C0319D4B044007B7880 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16BA8C0219D4B044007B7880 /* Images.xcassets */; };
 		16BA8C0619D4B044007B7880 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16BA8C0419D4B044007B7880 /* LaunchScreen.xib */; };
 		16BA8C1219D4B044007B7880 /* Bar_VIPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA8C1119D4B044007B7880 /* Bar_VIPTests.m */; };
+		16BA8C1E19D4C3FA007B7880 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA8C1D19D4C3FA007B7880 /* TabBarController.m */; };
+		E4CF98FB7A6917E543D61280 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B57940676FCB360D1A13B655 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1624C9DC19D7927000AE620B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		1624C9DD19D7927000AE620B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		1624C9E119D79E8600AE620B /* map_marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_marker@2x.png"; sourceTree = "<group>"; };
+		1624C9E319D79E8D00AE620B /* map_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_marker.png; sourceTree = "<group>"; };
+		1624C9E519D7A0E300AE620B /* user_male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_male.png; sourceTree = "<group>"; };
+		1624C9E619D7A0E300AE620B /* user_male@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_male@2x.png"; sourceTree = "<group>"; };
+		1624C9E919D7A31100AE620B /* money_bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money_bag.png; sourceTree = "<group>"; };
+		1624C9EA19D7A31100AE620B /* money_bag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "money_bag@2x.png"; sourceTree = "<group>"; };
+		1624C9ED19D7AEA000AE620B /* lenasquare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lenasquare.jpg; sourceTree = "<group>"; };
+		1624C9EF19D8A34300AE620B /* RewardsCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardsCollectionView.h; sourceTree = "<group>"; };
+		1624C9F019D8A34300AE620B /* RewardsCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardsCollectionView.m; sourceTree = "<group>"; };
 		16BA8BEF19D4B044007B7880 /* Bar VIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bar VIP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16BA8BF319D4B044007B7880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16BA8BF419D4B044007B7880 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +65,11 @@
 		16BA8C0B19D4B044007B7880 /* Bar VIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bar VIPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16BA8C1019D4B044007B7880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16BA8C1119D4B044007B7880 /* Bar_VIPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bar_VIPTests.m; sourceTree = "<group>"; };
+		16BA8C1C19D4C3FA007B7880 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		16BA8C1D19D4C3FA007B7880 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		A52CF54CFCBDCF750E6CCA1C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B57940676FCB360D1A13B655 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F898C20AAD46DFDECD6F22B5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CF98FB7A6917E543D61280 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +91,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1624C9DF19D79E6300AE620B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1624C9E019D79E6900AE620B /* Images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		1624C9E019D79E6900AE620B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1624C9E319D79E8D00AE620B /* map_marker.png */,
+				1624C9E119D79E8600AE620B /* map_marker@2x.png */,
+				1624C9E519D7A0E300AE620B /* user_male.png */,
+				1624C9E619D7A0E300AE620B /* user_male@2x.png */,
+				1624C9E919D7A31100AE620B /* money_bag.png */,
+				1624C9EA19D7A31100AE620B /* money_bag@2x.png */,
+				1624C9ED19D7AEA000AE620B /* lenasquare.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		16BA8BE619D4B044007B7880 = {
 			isa = PBXGroup;
 			children = (
 				16BA8BF119D4B044007B7880 /* Bar VIP */,
 				16BA8C0E19D4B044007B7880 /* Bar VIPTests */,
 				16BA8BF019D4B044007B7880 /* Products */,
+				C5E776640D5E59E47F255CBF /* Pods */,
+				241CE4BB225D6F926900BBE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,8 +136,15 @@
 		16BA8BF119D4B044007B7880 /* Bar VIP */ = {
 			isa = PBXGroup;
 			children = (
+				1624C9DF19D79E6300AE620B /* Assets */,
 				16BA8BF619D4B044007B7880 /* AppDelegate.h */,
 				16BA8BF719D4B044007B7880 /* AppDelegate.m */,
+				1624C9DC19D7927000AE620B /* MapViewController.h */,
+				1624C9DD19D7927000AE620B /* MapViewController.m */,
+				1624C9EF19D8A34300AE620B /* RewardsCollectionView.h */,
+				1624C9F019D8A34300AE620B /* RewardsCollectionView.m */,
+				16BA8C1C19D4C3FA007B7880 /* TabBarController.h */,
+				16BA8C1D19D4C3FA007B7880 /* TabBarController.m */,
 				16BA8BF919D4B044007B7880 /* FirstViewController.h */,
 				16BA8BFA19D4B044007B7880 /* FirstViewController.m */,
 				16BA8BFC19D4B044007B7880 /* SecondViewController.h */,
@@ -124,6 +183,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		241CE4BB225D6F926900BBE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B57940676FCB360D1A13B655 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5E776640D5E59E47F255CBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A52CF54CFCBDCF750E6CCA1C /* Pods.debug.xcconfig */,
+				F898C20AAD46DFDECD6F22B5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16BA8C1519D4B044007B7880 /* Build configuration list for PBXNativeTarget "Bar VIP" */;
 			buildPhases = (
+				12082062CFE7775F0DBBC42A /* Check Pods Manifest.lock */,
 				16BA8BEB19D4B044007B7880 /* Sources */,
 				16BA8BEC19D4B044007B7880 /* Frameworks */,
 				16BA8BED19D4B044007B7880 /* Resources */,
+				0B27B5BB4708E935EF877086 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,8 +283,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				16BA8C0119D4B044007B7880 /* Main.storyboard in Resources */,
+				1624C9EB19D7A31100AE620B /* money_bag.png in Resources */,
+				1624C9E219D79E8600AE620B /* map_marker@2x.png in Resources */,
+				1624C9E719D7A0E300AE620B /* user_male.png in Resources */,
+				1624C9EE19D7AEA000AE620B /* lenasquare.jpg in Resources */,
+				1624C9E819D7A0E300AE620B /* user_male@2x.png in Resources */,
+				1624C9EC19D7A31100AE620B /* money_bag@2x.png in Resources */,
 				16BA8C0619D4B044007B7880 /* LaunchScreen.xib in Resources */,
 				16BA8C0319D4B044007B7880 /* Images.xcassets in Resources */,
+				1624C9E419D79E8D00AE620B /* map_marker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +304,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B27B5BB4708E935EF877086 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12082062CFE7775F0DBBC42A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		16BA8BEB19D4B044007B7880 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -226,6 +344,9 @@
 			files = (
 				16BA8BFE19D4B044007B7880 /* SecondViewController.m in Sources */,
 				16BA8BF819D4B044007B7880 /* AppDelegate.m in Sources */,
+				16BA8C1E19D4C3FA007B7880 /* TabBarController.m in Sources */,
+				1624C9F119D8A34300AE620B /* RewardsCollectionView.m in Sources */,
+				1624C9DE19D7927000AE620B /* MapViewController.m in Sources */,
 				16BA8BFB19D4B044007B7880 /* FirstViewController.m in Sources */,
 				16BA8BF519D4B044007B7880 /* main.m in Sources */,
 			);
@@ -347,6 +468,7 @@
 		};
 		16BA8C1619D4B044007B7880 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52CF54CFCBDCF750E6CCA1C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Bar VIP/Info.plist";
@@ -357,6 +479,7 @@
 		};
 		16BA8C1719D4B044007B7880 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F898C20AAD46DFDECD6F22B5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Bar VIP/Info.plist";
@@ -418,6 +541,7 @@
 				16BA8C1719D4B044007B7880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16BA8C1819D4B044007B7880 /* Build configuration list for PBXNativeTarget "Bar VIPTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +550,7 @@
 				16BA8C1A19D4B044007B7880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
