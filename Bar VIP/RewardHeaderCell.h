@@ -2,4 +2,5 @@
 
 @interface RewardHeaderCell : UICollectionReusableView
 
+
 @end

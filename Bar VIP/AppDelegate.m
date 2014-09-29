@@ -11,6 +11,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     [GMSServices provideAPIKey:@"AIzaSyBiQZFchkSJ7rPX_2BCTfQ_rQ2g4nydzV4"];
+    [NSThread sleepForTimeInterval:3.f];
 
     return YES;
 }
@@ -30,6 +31,8 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
+    [NSThread sleepForTimeInterval:3.f];
+
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 

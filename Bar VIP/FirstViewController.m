@@ -9,7 +9,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.imageView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+    self.imageView.contentMode = UIViewContentModeScaleAspectFill;
+    self.imageView.image = [UIImage imageNamed:@"blurredbackground-dark"];
 }
 
 - (void)didReceiveMemoryWarning {
