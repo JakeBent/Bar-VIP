@@ -9,9 +9,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.imageView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
-    self.imageView.contentMode = UIViewContentModeScaleAspectFill;
-    self.imageView.image = [UIImage imageNamed:@"blurredbackground-dark"];
+
+    UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"blurredbackground-dark"]];
+    backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
+    self.view = backgroundImageView;
 }
 
 - (void)didReceiveMemoryWarning {

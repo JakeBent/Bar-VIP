@@ -2,6 +2,6 @@
 
 @interface FirstViewController : UIViewController
 
-@property (nonatomic, retain) IBOutlet UIImageView *imageView;
+@property (nonatomic, retain) IBOutlet UIView *backgroundView;
 @end
 
